@@ -1,0 +1,143 @@
+ * {  box-sizing: border-box;
+    /* background-color: #EAC926; */
+    font-family: 'Roboto', sans-serif;
+    padding:0px;
+    border: 0px;
+    margin: 0px;
+} 
+header{
+    background-color:#EAC926 ;
+    padding:0px;
+    border: 0px;
+    margin: 0px;
+}
+header .logodemercado{
+
+    width: 40%;
+}
+.busqueda {
+
+    text-align: start;
+    border: 1px solid black;
+    width: 40%;
+    background-color: azure;
+    font-weight: 100;
+    padding: 0px;
+    border: 1px solid black;
+    margin: 0px;
+}
+
+.compras {
+    text-align: center;
+    font-size: 16px;
+    font-weight: lighter;
+}
+.burger-menu{
+    text-align: center;
+}
+
+header i {
+    background-color:azure;
+    border: 1px solid black;
+}
+
+.compras {
+    text-align: center;
+}
+
+header section article i {
+    background-color:#EAC926; ;
+    border: none
+}
+.menu{
+    list-style: none;
+    padding:0px;
+    margin-top:15px;
+    border: 0px;
+    
+}
+
+.menu2 {
+    list-style: none;
+    padding: 0px;
+    background-color:#EAC926 ;
+    padding-right: 10px;
+
+
+}
+
+.footer {
+    background-color: white;
+}
+
+.tarjeta i {
+    
+    font-size: 2em;
+    width: 50%;
+    padding-left: 45%;
+    color: blue;
+    margin-top: 60px;
+
+}
+
+.gift i {
+    font-size: 2em;
+    width: 50%;
+    padding-left: 45%;
+    color: blue;
+    margin-top: 60px;
+}
+
+.security i {
+    font-size: 2em;
+    width: 50%;
+    padding-left: 45%;
+    color: blue;
+    margin-top: 60px;
+
+}
+
+.copy{
+    font-size: 12px;
+    margin-left: 5%;
+    margin-bottom: 4%;
+    margin-top: 15px;
+}
+
+.tarjeta h4{
+    text-align: center;
+    margin-top: 15px;
+}
+
+.tarjeta p {
+    text-align: center;
+    padding-left: 20%;
+    margin-right: 20%;
+    margin-top: 15px;
+
+}
+
+.gift p {
+    text-align: center;
+    padding-left: 20%;
+    margin-right: 20%;
+    margin-top: 15px;
+}
+
+.gift h4{
+    text-align: center;
+    margin-top: 15px;
+}
+
+.security p {
+    text-align: center;
+    padding-left: 20%;
+    margin-right: 20%;
+    margin-top: 15px;
+
+}
+
+.security h4 {
+    text-align: center;
+    margin-top: 15px;
+}

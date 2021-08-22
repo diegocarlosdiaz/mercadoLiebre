@@ -15,26 +15,35 @@ header .logodemercado{
 
     width: 40%;
 }
+
 .busqueda {
 
     text-align: start;
     border: 1px solid black;
-    width: 40%;
-    background-color: azure;
-    font-weight: 100;
-    padding: 0px;
-    border: 1px solid black;
-    margin: 0px;
+    width: 206px;
+    background-color: white;
+     margin: 10px 0; 
 }
+
 
 .compras {
     text-align: center;
     font-size: 16px;
+    margin: 10px 0;
     font-weight: lighter;
 }
-.burger-menu{
+
+.burger-menu {
     text-align: center;
+    padding: 10px 0;
 }
+
+.burger-menu i{
+    background-color:#1259c3;
+    padding: 8px;
+    border-radius: 5px;
+    color: white;
+  }
 
 header i {
     background-color:azure;

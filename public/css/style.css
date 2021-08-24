@@ -4,6 +4,7 @@
     padding:0px;
     border: 0px;
     margin: 0px;
+    
 } 
 header{
     background-color:#EAC926 ;
@@ -150,3 +151,94 @@ header section article i {
     text-align: center;
     margin-top: 15px;
 }
+
+
+main{
+    margin: 0 auto;
+    width: 90%;
+    background-color: var(--gris);
+}
+
+
+main article i{
+    color: var(--verde);
+}
+main article span{
+    color: var(--verde);
+}
+
+main article {
+    display: block;
+    
+    border-top: 1px solid #ebebeb;
+    padding-bottom: 5px;
+    margin: 10px;
+    padding-top: 15px;
+    
+}
+.products article{
+    background-color: white;
+    padding-bottom: 10px;
+}
+.products2 article{
+    background-color: white;
+    padding-bottom: 10px;
+}
+:root{
+    --gris:rgb(202, 202, 202);
+}
+
+.ultVista{
+background-color: var(--gris);
+color: --griss;
+padding-top: 10px;
+padding-left: 10px;
+
+}
+:root{
+   --verde: rgb(108, 175, 7)
+}
+.ofertas {
+    color: --griss;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+:root{
+    --griss: rgb(77, 77, 77);
+}
+.products div{
+    border-top: 1px solid rgb(175, 175, 175);
+
+}
+.products2 div{
+    border-top: 1px solid rgb(175, 175, 175);
+}
+
+@media (max-width: 361px){
+    main .products2 div h4 {
+        display: none;
+    }
+    main .products div h4{
+        display:none;
+    }
+    header nav {
+        display: none;
+    }
+
+
+}
+
+@media (min-width: 361px){
+
+    .burger-menu i{
+        display: none;
+    }
+   main article {
+
+    box-shadow: 0px 0px 10px rgb(100, 100, 100)
+   }
+
+   
+}
+

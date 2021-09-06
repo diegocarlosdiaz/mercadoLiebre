@@ -1,0 +1,41 @@
+:root{
+    --amarillo:#EAC926;
+    --azul:#03264C;
+    --celeste:#1259C3;
+    --gris-oscuro:#666;
+    --gris-claro:#EBEBEB;
+    --verde:#39B54A;
+    --cuerpo:12px;
+    --titulares: 24px;
+    --precios: 18px;
+    --descuentos-descripciones:16px;
+}
+
+*{
+    font-family: 'Roboto', sans-serif;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+body{
+    background-color: var(--gris-claro);
+    font-size: size var(--cuerpo);
+
+}
+
+main img{
+    width: 100%;
+}
+
+
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+

@@ -1,5 +1,10 @@
+ @import url("./general.css");
+ @import url("./header.css");
+ @import url("./main.css");
+ @import url("./footer.css");
+ 
+/*
  * {  box-sizing: border-box;
-    /* background-color: #EAC926; */
     font-family: 'Roboto', sans-serif;
     padding:0px;
     border: 0px;
@@ -162,6 +167,9 @@ main{
 
 main article i{
     color: var(--verde);
+    border: 1px solid var(--verde);
+    padding: 5px;
+    border-radius: 50%;
 }
 main article span{
     color: var(--verde);

@@ -1,0 +1,68 @@
+header{
+    background-color: var(--amarillo);
+    padding: 10px;
+    
+
+}
+
+header img{
+width: 50%;
+
+}
+
+header form{
+    width: 50%;
+
+} 
+
+header form input {
+    width: 85%;
+   
+}
+
+
+header p{
+    text-align: center;
+    margin: 10px 0px;
+
+}
+
+header nav{
+
+    display: none;
+
+}
+
+header .burger { 
+    
+    text-align: center;
+    padding: 10px 0px;
+}
+
+header .burger i {
+    border-radius: 5px;
+    padding: 8px;
+    color: white;
+    background-color: var(--celeste);
+    font-size: var(--descuentos-descripciones);
+}
+
+@media (min-width: 361px){
+    header nav {
+        display: block;
+    }
+   header .burger{
+        display: none;
+        
+    }
+
+    header nav ul li{
+        padding: 3px 0;
+    }
+       
+   }
+   
+   @media(min-width: 769px){
+   
+   }
+   

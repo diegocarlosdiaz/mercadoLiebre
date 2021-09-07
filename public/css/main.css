@@ -33,7 +33,7 @@ main section article .conteiner h4{
     padding-top: 20px;
 }
 
-main section article i{
+main section article .conteiner i{
 color: var(--verde);    
 display:block;
 font-size: 16px;
@@ -46,11 +46,19 @@ border-radius: 50% ;
 position: absolute ;
 right: 20px ;
 top: -15px ;
-}
+} 
+
+
 
 main section article p{
     color: var(--verde);
-    margin: 10px 0;
+    margin: 0px 10px;
+}
+
+main section article .conteiner div{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
 }
 
 @media (min-width: 361px){
@@ -72,7 +80,101 @@ main section article p{
     
 
 
-@media(min-width: 769px){
+@media(min-width: 769px) {
 
+    main section h2{
+        padding-left: 5%;
+    }
+
+    main .vista  { 
+        
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        
+
+
+
+    }
+
+    main .vista div article{
+
+        width: 80%;
+        display: flex;
+        margin: 0 auto;
+        margin-bottom: 30px;
+        flex-direction:column;
+    }
+
+    main .ofertas  { 
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        
+
+
+
+    }
+
+    main .ofertas div article{
+
+        width: 80%;
+        display: flex;
+        margin: 0 auto;
+        margin-bottom: 30px;
+        flex-direction:column;
+    }
 }
+@media (min-width:1024px){
 
+   
+
+
+
+
+    main .vista div article{
+        width: 40%;
+        display: flex;
+        margin: 0 auto;
+        margin-bottom: 30px;
+        flex-direction:column;
+    }
+
+    main .vista div article .conteiner {
+        display: flex;
+        flex-direction: column;
+    }
+
+    
+    main .vista div { 
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    main .ofertas div { 
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+
+
+
+    main .ofertas div article{
+        width: 40%;
+        display: flex;
+        margin: 0 auto;
+        margin-bottom: 30px;
+        flex-direction:column;
+    }
+
+    main .ofertas div article .conteiner {
+        display: flex;
+        flex-direction: column;
+    }
+
+    main section h2{
+        padding-left: 2%;
+    }
+}

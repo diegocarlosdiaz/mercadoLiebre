@@ -1,31 +1,80 @@
 header{
     background-color: var(--amarillo);
     padding: 10px;
+    font-size: var(--cuerpo);
     
 
 }
 
-header img{
+header .principio{
+    display: flex;
+    flex-direction: row;
+    
+    flex-wrap: wrap;
+    
+}
+header .logo {
 width: 50%;
 
 }
 
-header form{
+header .busqueda{
+    
     width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 0px;
+    align-items: center;
+    
 
 } 
 
-header form input {
-    width: 85%;
+
+
+header .principio .busqueda input{
+ display: flex;
+ width: 50%;   
+ flex-direction: row;
+ justify-content: flex-end;
+ flex-wrap: nowrap;
+ border-top-left-radius: 5px;
+ border-bottom-left-radius: 5px;
+ height: 20px;
+ align-items: center;
+ border: none;
+ padding: 20px 0 20px 8px;
+ 
+ 
    
 }
 
-
-header p{
-    text-align: center;
-    margin: 10px 0px;
-
+header .principio .busqueda i {
+    display: flex;
+    background-color: white;
+    height: 20px;
+    border-bottom-right-radius:5px;
+    border-top-right-radius:5px;
+    padding: 20px 8px ;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
 }
+
+
+header .principio .cuotas{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    flex-direction: row;
+    padding: 5% 0px;
+    font-size: var(--descuentos-descripciones);
+
+    
+    
+}
+
+
 
 header nav{
 
@@ -63,6 +112,91 @@ header .burger i {
    }
    
    @media(min-width: 769px){
+
+    header .principio{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+       
+    }
+    
+    header .principio .logo{
+        width: 30%;
+    }
+
+    header .principio .busqueda{
+        width: 30%;
+    }
+
+    header .principio .cuotas{
+        width: 30%;
+    }
+
+    header .navegador {
+        
+        display: flex;
+        flex-direction: row;
+        
+        
+    }
+
+
+
+    header  .navegador .menu{
+        width: 50%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        
+    }
+   
+    header  .navegador .menu2{
+    
+        width: 50%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    header  .navegador .menu ul{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 100%;
+        padding-right: 20%;
+
+    }
+
+
+    header  .navegador .menu2 ul{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 100%;
+        padding-left: 20%;
+        
+
+    }
+    header  .navegador .menu ul li{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+
+    }
+
+
+    header  .navegador .menu2 ul li{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+
+    }
+
+    header .principio .cuotas{
+        font-size: var(--cuerpo);
+    }
+   
+   
    
    }
    

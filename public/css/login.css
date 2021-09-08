@@ -1,0 +1,30 @@
+.login main{
+    display: flex;
+    width: 60%;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 auto;
+    padding: 5% 0px;
+
+}
+
+.login main input{
+    width: 100%;
+    display: flex;
+    margin:5% 0 ;
+    padding: 10px 0;
+    border-radius: 10px;
+    padding-left: 1%;
+    
+}
+
+.login main .enviar1 input{
+    background-color: var(--celeste);
+    padding-left: 46%; 
+}
+.enviar{
+    color: white;
+}
+
+
+

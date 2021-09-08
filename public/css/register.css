@@ -1,0 +1,95 @@
+.register main form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+    margin: 0 auto;
+    padding: 3%;
+}
+
+.register main form input{
+    margin: 15px 0;
+    border-radius: 5px;
+    border: 0px;
+    padding: 5px;
+}
+
+.register main form div{
+display: flex;
+justify-content: space-between;
+flex-direction: row;
+align-items: center;
+padding-bottom: 5%;
+width: 100%;
+
+
+}
+
+.register main form .intereses{
+    padding-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.register main form .area{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+}
+
+
+.register main form .area div{
+    width: 100%
+}
+
+.register main form .area div input{
+margin-right: 30%;
+}
+
+
+.register main form .enviar1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+
+}
+.register main form .enviar1 input {
+    background-color: var(--celeste);
+    width: 100%;
+    margin: 15px 0;
+    border-radius: 5px;
+    border: 0px;
+    padding: 5px;
+    
+    
+    
+}
+.enviar{
+    color: white;
+}
+.register main form .reset1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+
+}
+.register main form .reset1 input {
+    background-color: var(--celeste);
+    width: 100%;
+    margin: 15px 0;
+    border-radius: 5px;
+    border: 0px;
+    padding: 5px;
+    
+    
+    
+}
+.reset{
+    color: white;
+}
+
